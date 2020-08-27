@@ -1,7 +1,8 @@
 ---
- - name: Nombre
-   hosts: all
+ - name: Rol prueba Seguridad
+   hosts: web
    become: yes
+   remote_user: root
   
    roles:
      - ansible-role-rhel8-ospp
