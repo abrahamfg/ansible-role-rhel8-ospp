@@ -1,6 +1,7 @@
-- name: Nombre
-  hosts: all
-  become: yes
+---
+ - name: Nombre
+   hosts: all
+   become: yes
   
-  roles:
-    - ansible-role-rhel8-ospp
+   roles:
+     - ansible-role-rhel8-ospp
